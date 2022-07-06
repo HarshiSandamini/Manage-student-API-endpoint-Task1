@@ -1,4 +1,4 @@
-package com.example.demo.validation;
+package com.example.demo.helpers;
 
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
