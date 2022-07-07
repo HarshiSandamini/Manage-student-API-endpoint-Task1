@@ -1,6 +1,7 @@
 package com.example.demo.model;
 
 import org.hibernate.query.criteria.internal.expression.function.CurrentDateFunction;
+import org.hibernate.validator.constraints.UniqueElements;
 
 import javax.persistence.*;
 import javax.validation.constraints.*;
@@ -20,6 +21,7 @@ public class Student {
 
     private String city;
     @Email
+    @UniqueElements(message = "The email is already taken")
     private String email;
 
     @Past

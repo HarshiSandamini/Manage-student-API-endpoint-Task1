@@ -5,6 +5,7 @@ import com.example.demo.repository.StudentRepository;
 import com.example.demo.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.jpa.convert.threeten.Jsr310JpaConverters;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
@@ -29,14 +30,12 @@ public class StudentServiceImpl implements StudentService {
     }
 
     @Override
-    public void addNewStudent(Student student) {
-        Optional<Student> studentOptional = studentRepository.
-                findStudentByEmail(student.getEmail());
-        if(studentOptional.isPresent()){
-            throw new IllegalStateException("Entered email is already taken");
-        }
-        studentRepository.save(student);
+    public List<Student> getStudentByCity(String city){
+        return studentRepository.findStudentByCity(city);
     }
+
+    @Override
+    public void addNewStudent(Student student) { studentRepository.save(student); }
 
     @Transactional
     public void updateStudent(Long studentId, String name, String city, String email) {
@@ -55,11 +54,6 @@ public class StudentServiceImpl implements StudentService {
 
         if(email != null && email.length()>0 &&
                 !Objects.equals(student.getEmail(), email)){
-            Optional<Student> studentOptional = studentRepository.
-                    findStudentByEmail(email);
-            if(studentOptional.isPresent()){
-                throw new IllegalStateException("email taken");
-            }
             student.setEmail(email);
         }
     }

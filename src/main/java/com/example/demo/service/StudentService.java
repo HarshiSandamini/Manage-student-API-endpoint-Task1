@@ -11,6 +11,8 @@ public interface StudentService {
 
     List <Student> getStudents();
 
+    List <Student> getStudentByCity(String city);
+
     void addNewStudent(Student student);
 
     void updateStudent(Long studentId, String name, String city, String email);

@@ -1,0 +1,556 @@
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"nethmi@gmail.com",
+  "dob":"2009-10-28"}
+
+<> 2022-07-07T122933.500.json
+
+###
+
+PUT http://localhost:8080/student/9?name=Kamal&city=colombo&email=kamal@gmail.com
+
+<> 2022-07-07T122928.500.json
+
+###
+
+PUT http://localhost:8080/student/9?name=Kamal&city=colombo&email=kamal@gmail.com
+
+<> 2022-07-07T122648.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Harshika",
+  "city" : "Ratnapura",
+ "email":"harshika@gmail.com",
+ "dob":"2013-10-28"}
+
+<> 2022-07-07T122630.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"nethmi@gmail.com",
+  "dob":"2009-10-28"}
+
+<> 2022-07-07T122550.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":" ",
+  "city" : "Jaffna",
+  "email":"nethmi@gmail.com",
+  "dob":"2009-10-28"}
+
+<> 2022-07-07T122537.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"",
+  "city" : "Jaffna",
+  "email":"ethmi@gmail.com",
+  "dob":"2009-10-28"}
+
+<> 2022-07-07T122523.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"",
+  "city" : "Jaffna",
+  "email":"ethmi@gmail.com",
+  "dob":"2009-10-28"}
+
+<> 2022-07-07T122412.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"",
+  "city" : "Jaffna",
+  "email":"ika@gmail.com",
+  "dob":"2009-10-28"}
+
+<> 2022-07-07T122347.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"hika@gmail.com",
+  "dob":"2009-10-28"}
+
+<> 2022-07-07T122330.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"hika@gmail.com",
+  "dob":"2009-10-28"}
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"hika@gmail.com",
+  "dob":"2009-10-28"}
+
+<> 2022-07-07T122020.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"hika@gmail.com",
+  "dob":"2009-10-28"}
+
+<> 2022-07-07T121746.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"hika@gmail.com",
+  "dob":"2009-10-28"}
+
+<> 2022-07-07T121713.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"hika@gmail.com",
+  "dob":"2009-10-28"}
+
+<> 2022-07-07T121546.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"hika@gmail.com",
+  "dob":"2009-10-28"}
+
+<> 2022-07-07T120708.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"hika@gmail.com",
+  "dob":"2009-10-28"}
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"hika@gmail.com",
+  "dob":"2000-10-28"}
+
+<> 2022-07-07T120654.200.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"hika@gmail.com",
+  "dob":"2000-10-28"}
+
+<> 2022-07-07T120352.200.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"shika@gmail.com",
+  "dob":"2008-10-28"}
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"rshika@gmail.com",
+  "dob":"2008-10-28"}
+
+<> 2022-07-07T120323.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Dulara",
+  "city" : "Jaffna",
+ "email":"harshika@gmail.com",
+ "dob":"2007-10-28"}
+
+<> 2022-07-07T120302.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"harshika@gmail.com",
+  "dob":"2008-10-28"}
+
+<> 2022-07-07T115506.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"rshika@gmail.com",
+  "dob":"2008-10-28"}
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"arshika@gmail.com",
+  "dob":"2008-10-28"}
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Dulara",
+  "city" : "Jaffna",
+ "email":"harshika@gmail.com",
+ "dob":"2007-10-28"}
+
+<> 2022-07-07T115424.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Harshika",
+  "city" : "Ratnapura",
+ "email":"harshika@gmail.com",
+ "dob":"2013-10-28"}
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Harshika",
+  "city" : "Ratnapura",
+ "email":"harshika@gmail.com",
+ "dob":"2013-10-28"}
+
+<> 2022-07-07T115351.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Dulara",
+  "city" : "Jaffna",
+ "email":"harshika@gmail.com",
+ "dob":"2007-10-28"}
+
+<> 2022-07-07T114943.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Harshika",
+  "city" : "Ratnapura",
+ "email":"harshika@gmail.com",
+ "dob":"2013-10-28"}
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Harshika",
+  "city" : "Ratnapura",
+ "email":"harshika@gmail.com",
+ "dob":"2013-10-28"}
+
+<> 2022-07-07T114847.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"harshika@gmail.com",
+  "dob":"2008-10-28"}
+
+<> 2022-07-07T114145.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Dulara",
+  "city" : "Jaffna",
+ "email":"harshika@gmail.com",
+ "dob":"2007-10-28"}
+
+<> 2022-07-07T114124.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Harshika",
+  "city" : "Ratnapura",
+ "email":"harshika@gmail.com",
+ "dob":"2013-10-28"}
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Dulara",
+  "city" : "Jaffna",
+ "email":"harshika@gmail.com",
+ "dob":"2007-10-28"}
+
+<> 2022-07-07T113842.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Dulara",
+  "city" : "Jaffna",
+ "email":"harshika@gmail.com",
+ "dob":"1997-10-28"}
+
+<> 2022-07-07T113828.400.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Dulara",
+  "city" : "Jaffna",
+ "email":"nethmi@gmail.com",
+ "dob":"1997-10-28"}
+
+<> 2022-07-07T113751.400.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Dulara",
+  "city" : "Jaffna",
+ "email":"nethmi@gmail.com",
+ "dob":"2010-10-28"}
+
+<> 2022-07-07T113645.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"nethmi@gmail.com",
+  "dob":"2008-10-28"}
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Harshika",
+  "city" : "Ratnapura",
+ "email":"harshika@gmail.com",
+ "dob":"2013-10-28"}
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"nethmi@gmail.com",
+  "dob":"2008-10-28"}
+
+<> 2022-07-07T113442.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Dulara",
+  "city" : "Jaffna",
+ "email":"nethmi@gmail.com",
+ "dob":"2010-10-28"}
+
+<> 2022-07-07T113438.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Harshika",
+  "city" : "Ratnapura",
+ "email":"harshika@gmail.com",
+ "dob":"2013-10-28"}
+
+<> 2022-07-07T113425.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Harshika",
+  "city" : "Ratnapura",
+ "email":"harshika@gmail.com",
+ "dob":"2013-10-28"}
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"nethmi@gmail.com",
+  "dob":"2008-10-28"}
+
+<> 2022-07-07T113354.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Dulara",
+  "city" : "Jaffna",
+ "email":"nethmi@gmail.com",
+ "dob":"2010-10-28"}
+
+<> 2022-07-07T113333.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"nethmi@gmail.com",
+  "dob":"2008-10-28"}
+
+<> 2022-07-07T113306.500.json
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"nethmi@gmail.com",
+  "dob":"2008-10-28"}
+
+<> 2022-07-07T113218.500.json
+
+###
+
+PUT http://localhost:8080/student/1?name=Kamal&city=colombo&email=kamal@gmail.com
+
+###
+
+POST http://localhost:8080/student
+Content-Type: application/json
+
+{"name":"Nethmi",
+  "city" : "Jaffna",
+  "email":"nethmi@gmail.com",
+  "dob":"2008-10-28"}
+
+###
+

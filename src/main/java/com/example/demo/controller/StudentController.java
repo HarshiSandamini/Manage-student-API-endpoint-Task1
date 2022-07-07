@@ -3,6 +3,8 @@ package com.example.demo.controller;
 import com.example.demo.model.Student;
 import com.example.demo.service.StudentService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.Valid;
@@ -12,7 +14,7 @@ import java.util.List;
 @RequestMapping("/student")
 public class StudentController {
 
-    private final StudentService studentService;
+    private StudentService studentService;
     @Autowired
     public StudentController(StudentService studentService) {
         this.studentService = studentService;
@@ -21,6 +23,16 @@ public class StudentController {
     @GetMapping("/student-details")
     public List<Student> getStudents(){
         return studentService.getStudents();
+    }
+
+    @GetMapping("/student-List")
+    public ResponseEntity<List<Student>> studentDetails(@RequestParam String city){
+        List<Student> studentList = studentService.getStudentByCity(city);
+
+        if(studentList.isEmpty()){
+            return new ResponseEntity<>(null, HttpStatus.OK);
+        }
+        return new ResponseEntity<>(studentList,HttpStatus.OK);
     }
 
     @PostMapping
